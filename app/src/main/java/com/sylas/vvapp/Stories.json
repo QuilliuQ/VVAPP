@@ -1,0 +1,167 @@
+{
+  "grid": {
+    "width": 12,
+    "height": 12
+  },
+  "screen":{
+    "params": "??",
+    "children": [
+      {
+        "viewtype": "Column",
+        "padding": 16,
+        "children": [
+          {
+            "viewtype": "Div",
+            "padding": 16,
+            "width": "10%",
+            "height": "10%",
+            "children": [
+              {
+                "viewtype": "Image",
+                "name": "Preview",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+
+                "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5"
+              },
+              {
+                "viewtype": "Text",
+                "width": "100%",
+                "label": "Вы ведёте здоровый образ жизни?",
+                "height": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+                "fontSize":  16,
+                "textAligment": "Center"
+              }
+
+            ]
+          },
+          {
+            "viewtype": "Div",
+            "padding": 16,
+            "width": "10%",
+            "height": "10%",
+            "children": [
+              {
+                "viewtype": "Image",
+                "name": "Preview",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+
+                "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5"
+              },
+              {
+                "viewtype": "Text",
+                "width": "100%",
+                "label": "Вы ведёте здоровый образ жизни?",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+                "fontSize":  16,
+                "textAligment": "Center"
+              }
+
+            ]
+          },
+          {
+            "viewtype": "Div",
+            "padding": 16,
+            "width": "10%",
+            "height": "10%",
+            "children": [
+              {
+                "viewtype": "Image",
+                "name": "Preview",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+
+                "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5"
+              },
+              {
+                "viewtype": "Text",
+                "width": "100%",
+                "label": "Вы ведёте здоровый образ жизни?",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+                "fontSize":  16,
+                "textAligment": "Center"
+              }
+
+            ]
+          },
+          {
+            "viewtype": "Div",
+            "padding": 16,
+            "width": "10%",
+            "height": "10%",
+            "children": [
+              {
+                "viewtype": "Image",
+                "name": "Preview",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+
+                "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5"
+              },
+              {
+                "viewtype": "Text",
+                "width": "100%",
+                "label": "Вы ведёте здоровый образ жизни?",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+                "fontSize":  16,
+                "textAligment": "Center"
+              }
+
+            ]
+          },
+          {
+            "viewtype": "Div",
+            "padding": 16,
+            "width": "10%",
+            "height": "10%",
+            "children": [
+              {
+                "viewtype": "Image",
+                "name": "Preview",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+
+                "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5"
+              },
+              {
+                "viewtype": "Text",
+                "width": "100%",
+                "label": "Вы ведёте здоровый образ жизни?",
+                "width": "100%",
+                "color": {
+                  "textColor":"#0C43E7"
+                },
+                "fontSize":  16,
+                "textAligment": "Center"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+}
