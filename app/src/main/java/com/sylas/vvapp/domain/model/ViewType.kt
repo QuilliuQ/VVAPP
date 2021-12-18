@@ -1,6 +1,7 @@
-package com.sylas.vvapp.repository.model
+package com.sylas.vvapp.domain.model
 
 sealed class ViewType {
+    object ErrorViewType:ViewType()
     object EditText : ViewType()
     object Button : ViewType()
     object ExpandableBanner : ViewType()
@@ -18,11 +19,11 @@ sealed class ViewType {
     object Icon : ViewType()
 
     //List's
-    object List:ViewType()
-    object ViewPager:ViewType()
+    object List: ViewType()
+    object ViewPager: ViewType()
 
     //Top and Bottom Item
-    object AppBar:ViewType()
+    object AppBar: ViewType()
     object BottomNavigation : ViewType()
 
     //Marking

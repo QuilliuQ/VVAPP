@@ -1,0 +1,253 @@
+{
+  "grid": {
+    "width": 12,
+    "height": 12
+  },
+  "screen": {
+    "params": "??",
+    "children": [
+      {
+        "viewType": "Box",
+        "viewTypeArgs": {
+          "tag": "MainScreenBox",
+          "colors": {
+            "backgroundColor": "56,54,77"
+          }
+        },
+        "children": [
+          {
+            "viewType": "Column",
+            "viewTypeArgs": {
+              "tag": "MainScreen",
+              "align": "TopCenter"
+            },
+            "children": [
+              {
+                "viewType": "Row",
+                "viewTypeArgs": {
+                  "tag": "AppBar",
+                  "verticalAlign":"Center",
+                  "margin": {
+                    "top": 12,
+                    "left": 16,
+                    "right": 20,
+                    "bottom": 5
+                  },
+                  "width": "100%"
+                },
+                "children": [
+                  {
+                    "viewType": "Column",
+                    "viewTypeArgs": {
+                      "tag": "card"
+                    },
+                    "children": [
+                      {
+                        "viewType": "Text",
+                        "viewTypeArgs": {
+                          "tag": "cardNumber",
+                          "text": "Карта №А453845",
+                          "fontSize": 20,
+                          "fontWeight": 700,
+                          "colors": {
+                            "textColor": "255,255,255"
+                          }
+                        }
+                      },
+                      {
+                        "viewType": "Text",
+                        "viewTypeArgs": {
+                          "tag": "fullName",
+                          "text": "Андрей Кривенко",
+                          "fontSize": 12,
+                          "fontWeight": 500,
+                          "colors": {
+                            "textColor": "216,216,216"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "viewType": "Spacer",
+                    "viewTypeArgs": {
+                      "weight": 1
+                    }
+                  },
+                  {
+                    "viewType": "Image",
+                    "viewTypeArgs": {
+                      "tag": "settings",
+                      "width": "50%",
+                      "height": "50%",
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "description": "Настройки"
+                    }
+                  },
+                  {
+                    "viewType": "BadgedImage",
+                    "viewTypeArgs": {
+                      "tag": "notifications",
+                      "width": "50%",
+                      "height": "50%",
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "description": "Уведомления"
+                    },
+                    "children": [
+                      {
+                        "viewType": "Text",
+                        "viewTypeArgs": {
+                          "tag": "badgeCount",
+                          "text": "1",
+                          "fontSize": 10,
+                          "fontWeight": 700,
+                          "colors": {
+                            "textColor": "56,54,77"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "viewType": "List",
+                "viewTypeArgs": {
+                  "tag": "Stories",
+                  "data": [
+                    {
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "mainText": "Вы ведёте здоровый образ жизни?"
+                    },
+                    {
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "mainText": "Вы ведёте здоровый образ жизни?"
+                    },
+                    {
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "mainText": "Вы ведёте здоровый образ жизни?"
+                    },
+                    {
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "mainText": "Вы ведёте здоровый образ жизни?"
+                    },
+                    {
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "mainText": "Вы ведёте здоровый образ жизни?"
+                    },
+                    {
+                      "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                      "mainText": "Вы ведёте здоровый образ жизни?"
+                    }
+                  ],
+                  "margin": {
+                    "right": 0,
+                    "all": 15
+                  },
+                  "width": "100%"
+                },
+                "children": [
+                  {
+                    "viewType": "Image",
+                    "viewTypeArgs": {
+                      "tag": "Preview",
+                      "width": "100%",
+                      "description": "История",
+                      "image": "imageHash",
+                      "color": {
+                        "backgroundColor": "#0C43E7"
+                      }
+                    }
+                  },
+                  {
+                    "viewType": "Text",
+                    "viewTypeArgs": {
+                      "width": "100%",
+                      "label": "mainText",
+                      "color": {
+                        "textColor": "251,250,249"
+                      },
+                      "fontSize": 12,
+                      "minLines": 3,
+                      "textAlignment": "Center"
+                    }
+                  }
+                ]
+              },
+              {
+                "viewType": "Column",
+                "viewTypeArgs": {
+                  "tag": "MainContent",
+                  "padding": {
+                    "all": 16
+                  },
+                  "width": "100%",
+                  "corners": {
+                    "topLeft": 30,
+                    "topRight": 30
+                  },
+                  "colors": {
+                    "backgroundColor": "255,255,255"
+                  },
+                  "verticalScroll": true
+                },
+                "children": [
+                  {
+                    "viewType": "In Progress",
+                    "viewTypeArgs": {},
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "viewType": "BottomNavigation",
+            "viewTypeArgs": {
+              "tag": "BottomNavigation",
+              "data": [
+                {
+                  "label": "Моя карта",
+                  "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                  "description": "Моя карта",
+                  "route": "..."
+                },
+                {
+                  "label": "Каталог",
+                  "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                  "description": "Каталог",
+                  "route": "..."
+                },
+                {
+                  "label": "Магазины",
+                  "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                  "description": "Магазины",
+                  "route": "..."
+                },
+                {
+                  "label": "Профиль",
+                  "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                  "description": "Профиль",
+                  "route": "..."
+                },
+                {
+                  "label": "Поддержка",
+                  "imageHash": "1c757a07aa4e0c8b02b47439ee5d191cf5a06ea5",
+                  "description": "Поддержка",
+                  "route": "..."
+                }
+              ],
+              "colors": {
+                "backgroundColor": "255,255,255",
+                "selectedColor": "54,186,95",
+                "defaultColor": "142,142,147"
+              },
+              "width": "100%"
+            }
+          }
+        ]
+      }
+
+    ]
+  }
+}
